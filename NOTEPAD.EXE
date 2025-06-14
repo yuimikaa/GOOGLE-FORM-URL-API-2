@@ -1,0 +1,14 @@
+from urllib import request
+from time import sleep
+
+
+
+while True:
+	sleep(3)
+
+
+
+
+	x = 3
+	form_url = "".format(x)
+	response = request.urlopen(form_url)
